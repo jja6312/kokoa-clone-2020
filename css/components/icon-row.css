@@ -1,0 +1,24 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 7px;
+  border-bottom: var(--main-border);
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+}
+
+.icon-row__icon span {
+  margin-top: 5px;
+}
+
+.recommended-friends {
+  padding: 2px 0px;
+
+  border-bottom: var(--main-border);
+}

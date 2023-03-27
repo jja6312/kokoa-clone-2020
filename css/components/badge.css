@@ -1,0 +1,35 @@
+.badge {
+  border: 1px solid tomato;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+}
+
+.clock1 {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 5px;
+}
+
+#clock1 {
+  align-items: flex-end;
+  width: 50px;
+  height: 40px;
+  justify-content: space-between;
+}
+
+.clock2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-dot {
+  border: 1px solid tomato;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}

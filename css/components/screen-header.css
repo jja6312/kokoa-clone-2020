@@ -1,0 +1,54 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin: 5px 10px;
+}
+
+#chat-search {
+  margin-right: -10px;
+}
+
+#오른쪽상단설정박스 {
+  display: flex;
+}
+
+#오른쪽상단설정박스 span {
+  margin: 0px 18px;
+}
+
+.small-dot {
+  position: absolute;
+  right: -7px;
+  top: -7px;
+}
+
+#search-envirionment {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .man:hover {
+  animation: rotateCog 0.5s linear infinite;
+}
